@@ -1,2 +1,2 @@
-build/js/*.js linguist-vendored=false
-build/css/*.css linguist-vendored=false
+js/tokens.js linguist-detectable=true
+css/tokens.css linguist-detectable=true
