@@ -23,23 +23,21 @@ Scalability
 Automated delivery (via GitHub Actions)
 
 📁 Project Structure
+
 design-tokens/
-├─ index.html        
-├─ tokens.json      
-├─ config.json        
-├─ build/            
-│  ├─ css/
-│  │  └─ tokens.css   
-│  └─ js/
-│     └─ tokens.js    
-└─ .github/
-   └─ workflows/
-      └─ publish.yml  
+├─ index.html         
+├─ tokens.json       
+├─ config.json       
+├─ css/              
+│  └─ tokens.css      
+├─ js/                
+│  └─ tokens.js      
+└─ assets/ 
 
 ✨ Generated Artifacts
 Path	Format	Description	Usage
-build/css/tokens.css	CSS Custom Properties	--token-name: value;	Web / CSS
-build/js/tokens.js	ES Modules	Exported object	JS / Node / Front-end
+css/tokens.css	CSS Custom Properties	--token-name: value;	Web / CSS
+js/tokens.js	ES Modules	Exported object	JS / Node / Front-end
 🛠️ How to Contribute
 Designers / Token Masters
 
@@ -84,17 +82,14 @@ Os Design Tokens funcionam como a **Single Source of Truth**, garantindo:
 ## 📁 Estrutura do Projeto
 
 design-tokens/
-├─ build/
-│ ├─ css/
-│ │ └─ tokens.css
-│ └─ js/
-│ └─ tokens.js
-├─ .github/
-│ └─ workflows/
-│ └─ publish.yml
-├─ tokens.json
-├─ config.json
-└─ package.json
+├─ index.html         
+├─ tokens.json       
+├─ config.json       
+├─ css/              
+│  └─ tokens.css      
+├─ js/                
+│  └─ tokens.js      
+└─ assets/
 
 yaml
 Copiar código

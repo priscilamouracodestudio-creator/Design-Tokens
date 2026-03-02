@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Styleguide Automático - Design Tokens</title>
-    <link rel="stylesheet" href="./build/css/tokens.css">
+    <link rel="stylesheet" href="./css/tokens.css">
 
     <style>
       body {
@@ -93,7 +93,7 @@
 
 
     <script type="module">
-      import * as Tokens from './build/js/tokens.js';
+      import * as Tokens from './js/tokens.js';
       const grid = document.getElementById('token-grid');
       const toKebabCase = (str) => {
         return str.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
